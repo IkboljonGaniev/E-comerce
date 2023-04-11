@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-us1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-us{
+    display: grid;
+
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 400px;
+    background: linear-gradient(180deg, #0575E6 0%, #1d3b85 84.79%, #28419b 100%);
+box-shadow: 0px 13px 41px rgba(38, 111, 197, 0.25);
+}
+
+.mission{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.mission1{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+.mission2{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}

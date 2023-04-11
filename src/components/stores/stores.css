@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-us1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-us{
+    display: grid;
+
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 400px;
+    background: linear-gradient(180deg, #0575E6 0%, #1d3b85 84.79%, #28419b 100%);
+box-shadow: 0px 13px 41px rgba(38, 111, 197, 0.25);
+}
+.stores{
+    display: grid;
+    grid-template-areas: "auto auto auto";
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 100px;
+}
+.stores1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    width: 317px;
+    height: 80px;
+}

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body-product{
+    padding-top: 70px;
+}
+.nav-prod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-nav{
+    
+    flex: 2;
+    border: 1px solid red;
+    height: 783px;
+    background: rgba(38, 111, 197, 0.11);
+border-radius: 0px 0px 50px 0px;
+}
+.product-nav1{
+    
+    flex: 1;
+    border: 1px solid red;
+    height: 783px;
+}
+.prod1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.recomends{
+    display: grid;
+    grid-template-areas: "a a a";
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px;
+}
+.recomend{
+    border: 1px solid black;
+    background: #FFFFFF;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+border-radius: 15px 15px 20px 20px;
+height: 414px;
+width: 322px;
+}
+.name-prod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.name-left{
+    flex: 1;
+    border: 1px solid black;
+    height: 50px;
+}
+.name-right{
+    flex: 1;
+    border: 1px solid black;
+    height: 50px;
+}
+.re-comend{
+    width: 584px;
+    height: 456px;
+}
+.photo-rec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
